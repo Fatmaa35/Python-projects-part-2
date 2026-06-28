@@ -1,172 +1,162 @@
-🐍 Python Mini Projects Collection – Part 2
+# 🐍 Python Mini Projects Collection – Part 2
 
-Bu repo, Python programlama becerilerini geliştirmek ve gerçek hayat senaryolarına dayalı küçük ölçekli uygulamalar geliştirmek amacıyla hazırlanmış mini proje koleksiyonunu içermektedir.
+A collection of beginner-to-intermediate Python mini projects designed to strengthen core programming skills through real-world scenarios.
 
-Projeler; veri işleme, dosya yönetimi, JSON kullanımı, API entegrasyonu, tarih-saat hesaplamaları ve web scraping gibi konuları kapsamaktadır.
+These projects cover essential Python concepts such as file handling, JSON processing, API integration, date & time operations, randomization, and basic web scraping.
 
-📌 İçerdiği Projeler
+---
 
+## 📂 Project List
 
-1️⃣1️⃣ Temperature Converter
+### 11. 🌡️ Temperature Converter
 
-Celsius, Fahrenheit ve Kelvin arasında dönüşüm yapabilen sıcaklık dönüştürücü uygulaması.
+A temperature conversion application that converts values between **Celsius**, **Fahrenheit**, and **Kelvin**.
 
-Özellikler:
+**Features**
 
-Çoklu dönüşüm desteği
+* Convert between multiple temperature units
+* Menu-driven interface
+* Input validation
 
-Menü tabanlı kullanıcı etkileşimi
+---
 
-Giriş doğrulama
+### 12. 🎓 Student Grade Manager
 
+A simple application for managing student grades.
 
+**Features**
 
-1️⃣2️⃣ Student Grade Manager
+* Add new students
+* Record grades
+* Calculate average scores
+* Display all student records
 
-Öğrenci notlarını yönetmek için geliştirilmiş uygulama.
+---
 
-Özellikler:
+### 13. 🔐 Random Password Generator
 
-Öğrenci ekleme
+Generates secure and random passwords based on user preferences.
 
-Not ekleme
+**Features**
 
-Ortalama hesaplama
+* Custom password length
+* Letters, numbers, and special characters
+* Randomized password generation
 
-Notları listeleme
+---
 
+### 14. 🍽️ Recipe Viewer App
 
+A file-based application for viewing stored recipes.
 
-1️⃣3️⃣ Random Password Generator
+**Features**
 
-Güvenli ve rastgele şifre üretir.
+* Read recipes from text files
+* List available recipes
+* Display recipe details
 
-Özellikler:
+---
 
-Kullanıcı belirlemeli uzunluk
+### 15. 📖 Daily Journal Logger
 
-Harf, sayı ve özel karakter desteği
+A simple digital journal application that stores daily entries.
 
-Rastgele üretim algoritması
+**Features**
 
+* Add journal entries
+* View previous entries
+* File-based data storage
 
+---
 
-1️⃣4️⃣ Recipe Viewer App
+### 16. 📊 Student Report Generator
 
-Dosya tabanlı tarif görüntüleme uygulaması.
+Automatically generates formatted reports based on student grades.
 
-Özellikler:
+**Features**
 
-Tarifleri dosyadan okuma
+* Calculate average grades
+* Determine pass/fail status
+* Generate structured reports
 
-Tarif listeleme
+---
 
-İçerik görüntüleme
+### 17. ✅ Mini To-Do App (JSON Based)
 
+A task management application that stores data in a JSON file.
 
+**Features**
 
-1️⃣5️⃣ Daily Journal Logger
+* Add tasks
+* Update tasks
+* Delete tasks
+* Persistent JSON storage
 
-Kullanıcının günlük kayıtlarını ekleyip saklayabileceği uygulama.
+---
 
-Özellikler:
+### 18. ☁️ Weather App Using API
 
-Günlük giriş ekleme
+Retrieves real-time weather information using a public weather API.
 
-Kayıtları görüntüleme
+**Features**
 
-Dosya tabanlı saklama
+* Send HTTP requests
+* Parse JSON responses
+* Display weather information
+* Error handling
 
+---
 
+### 19. ⏳ Event Countdown Timer
 
-1️⃣6️⃣ Student Report Generator
+Calculates the remaining time until a specified event.
 
-Öğrenci notlarına göre otomatik rapor üretir.
+**Features**
 
-Özellikler:
+* Uses the `datetime` module
+* Calculates days, hours, and minutes remaining
+* Accepts user-defined dates
 
-Ortalama hesaplama
+---
 
-Başarı durumu belirleme
+### 20. 📚 Wikipedia Article Scraping
 
-Formatlı rapor çıktısı oluşturma
+Fetches article summaries from Wikipedia using web scraping techniques or APIs.
 
+**Features**
 
+* Retrieve article summaries
+* Process textual content
+* Practice API/Web Scraping concepts
 
-1️⃣7️⃣ Mini To-Do App (JSON Based)
+---
 
-JSON dosyası kullanarak görev yönetimi yapan uygulama.
+# 🛠️ Technologies Used
 
-Özellikler:
+* Python 3
+* Functional Programming
+* File Handling (`.txt`, `.json`)
+* JSON Processing
+* `requests` Library
+* `datetime` Module
+* Exception Handling (`try-except`)
+* Basic Web Scraping Techniques
 
-Görev ekleme
+---
 
-Görev silme
+# 🎯 Learning Objectives
 
-Görev güncelleme
+This project collection focuses on practicing:
 
-JSON dosyasında kalıcı saklama
+* Python fundamentals
+* Modular programming
+* File and JSON operations
+* REST API consumption
+* Date & time manipulation
+* Error handling
+* Random data generation
+* Basic automation and scraping
 
+---
 
-
-1️⃣8️⃣ Weather App Using API
-
-API kullanarak şehir bazlı hava durumu bilgisi çeker.
-
-Özellikler:
-
-HTTP request gönderme
-
-JSON veri işleme
-
-Hava durumu bilgisi gösterme
-
-Hata kontrolü
-
-
-
-1️⃣9️⃣ Event Countdown Timer
-
-Belirlenen tarihe kalan süreyi hesaplayan geri sayım uygulaması.
-
-Özellikler:
-
-datetime modülü kullanımı
-
-Gün, saat, dakika hesaplama
-
-Kullanıcıdan tarih alma
-
-
-
-1️⃣0️⃣ Wikipedia Article Scraping
-
-Wikipedia’dan makale bilgisi çekme uygulaması.
-
-Özellikler:
-
-Web scraping / API kullanımı
-
-Makale özetini alma
-
-Metin işleme
-
-
-
-🛠️ Kullanılan Teknolojiler
-
-Python 3
-
-Fonksiyonel programlama
-
-JSON veri işleme
-
-Dosya işlemleri (txt, json)
-
-requests kütüphanesi
-
-datetime modülü
-
-Hata yönetimi (try-except)
-
-Web scraping teknikleri
+⭐ Feel free to fork this repository, explore the projects  and use them as practice while learning Python.
